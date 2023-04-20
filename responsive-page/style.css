@@ -19,6 +19,12 @@ a{
     font-size: x-large;
     padding-bottom: 2em;
 }
+
+.intro{
+    text-align: center;
+    padding-top: 2em;
+    font-size: large;
+}
 .course{  
     padding: 1em;
     margin: 1em;
