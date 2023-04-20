@@ -1,0 +1,90 @@
+.container{
+    /*sets width for whole page*/ 
+    width: 90%;
+    /*centers the container of page*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation{
+    display:flexbox;
+}
+a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.logo{
+    padding-right: 4em;
+}
+a{
+    font-size: x-large;
+    padding-bottom: 2em;
+}
+.course{  
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+h1{
+    text-align: center;
+    padding-top: 2em;
+}
+.testimonial {
+    text-align: center;
+}
+footer{
+    display: inline-flex;
+    
+}
+.socials{
+    float: right;
+}
+/* Adding style for social media buttons on footer*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: #C13584;
+    color: white;
+  }
+  /* LinkedIn */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+/* Styling a large screen layout */
+@media (min-width: 960px) {
+    .row1{
+        display : flex;
+    }
+    .row2{
+        display : flex;
+    }
+
+}
+
